@@ -134,7 +134,7 @@ public:
         cout << "buku tidak dapat ditemukan.\n";
     }
     // destructor
-    BukuList()
+    ~BukuList()
     {
         Node *temp = head;
         while (temp)
